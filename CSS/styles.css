@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: #1b1b32;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    backdrop-filter: blur(1px);
+    color: #ffffff;
+}
+/* For the Heading and First Paragraph */
+h1, p {
+    margin: 1em;
+    text-align: center;
+    font-family: Tahoma;
+}
+/* For the Form Element */
+.Form{
+    margin: 0 auto;
+    width: 50%;
+    padding-bottom: 2em;
+}
+.Personal-Details {
+    border: none;
+    border-bottom: 0.5px solid #3b3b4f;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: none;
+    padding-right: none;
+}
+/* For the Input, Select and Textarea */
+input, textarea, select {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+    min-height: 2em;
+    width: 100%;
+    margin-top: 10px;
+    margin-left:0;
+    margin-bottom: 10px;
+    margin-right: 0:
+     
+}
+
+.inline {
+    width:unset;
+    margin: 0 0.5rem 0 0;
+    vertical-align: middle;
+}
+
+fieldset: last-of-type {
+    border-bottom: none;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+input[type="file"] {
+    padding: 1px 2px;
+}
+/* For the Select Element */
+#referrer {
+    padding: 1px 2px;
+    height: 2rem;
+}
+/* for the terms and condition */
+.Terms-inline {
+    width: unset;
+    vertical-align: middle;
+    
+}
+ a {
+    color: white;
+ }
+/* For the submit button */
+  #Submit  {
+    display: block;
+    width: 20%;
+    min-width: 200px;
+    margin: 0 auto 1em;
+    margin-top: 20px;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white ;
+ }
